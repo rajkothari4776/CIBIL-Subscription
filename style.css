@@ -1,0 +1,444 @@
+@font-face {
+    font-family: 'Circular STD';
+    src: url('circular-std/CircularStd-Book.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Circular STD', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-left: 10px;
+}
+
+.logo {
+    width: 110px;
+    padding-left: 72px;
+}
+.header-container2{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.login-button{
+    font-family: 'Circular STD', sans-serif, Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+    padding:10px;
+    padding-left: 20px;
+    padding-right: 20px; 
+    margin-left:100px; 
+    margin-right: 50px;
+    margin-top: 3px;
+    cursor: pointer;
+    color: #333;
+    text-decoration: none;
+}
+.login-button:hover{
+    text-decoration: underline;
+}
+.banner-section {
+    background: #f5f5f5;
+}
+.banner-image{
+    width: 1000px; 
+    filter: brightness(0.96);
+}
+img.banner-image-mobile{
+    filter: brightness(0.8);
+    display: none;
+}
+.headline h1{
+    font-family: 'Circular STD', sans-serif, Helvetica;
+    padding-top: 100px;
+    margin-left: 80px;
+    padding-right: 200px;
+    font-size: 57px;
+    padding-bottom: 0px;
+    margin-bottom: 0%;
+}
+.headline-text {
+    display: flex; 
+    justify-content: space-between; 
+}
+.sub-headline p{
+    font-family: 'Circular STD', sans-serif, Helvetica;
+    font-size: 20px;
+    margin-left: 80px;
+    font-weight: 560;
+    color: #4e4e4e;
+    padding-right: 350px;
+}
+.get-started{
+    font-family: 'Circular STD', sans-serif, Helvetica;
+    background-color: blue ;
+    border: 1px solid #333;
+    padding: 19px;
+    color: #f5f5f5;
+    font-size: 15px;
+    border-radius: 9999px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 81px;
+}
+.get-started:hover{
+    transform: scale(1.04);
+}
+.plans-section{
+    font-family: 'Circular STD', sans-serif, Helvetica;
+    padding: 40px 20px;
+    background-color: #f1f1f1;
+}
+.plans-section h2 {
+    font-family: 'Circular STD', sans-serif, Helvetica;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.plans-section p {
+    font-family: 'Circular STD', sans-serif, Helvetica;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.plans-container{
+    font-family: 'Circular STD', sans-serif, Helvetica;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.plan {
+    font-family: 'Circular STD', sans-serif;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    
+    width:350px;
+    text-align: center;
+    position: relative;
+    padding-left: 50px;
+    padding-top: 5px;
+    height: 650px;
+    padding-right: 50px;
+}
+.plan2 {
+    font-family: 'Circular STD', sans-serif;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    position: relative;
+    padding-left: 50px;
+    padding-top: 5px;
+    height: 650px;
+    padding-right: 50px;
+    width:350px;
+    text-align: center;
+    position: relative;
+}
+.plan3{
+    font-family: 'Circular STD', sans-serif;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    position: relative;
+    padding-left: 50px;
+    padding-top: 5px;
+    height: 650px;
+    padding-right: 50px;
+    width:350px;
+    text-align: center;
+    position: relative;
+}
+.plan-display {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+    margin-left: 25px;
+}
+
+.plan-display img.checkmark {
+    margin-right: 10px;
+    width: 50px; 
+    height: 50px; 
+}
+.plan-display img.checkmark1 {
+    margin-right: 10px;
+    width: 50px; 
+    height: 50px; 
+}
+.plan-display img.checkmark2 {
+    margin-right: 10px;
+    width: 50px; 
+    height: 50px; 
+}
+
+
+.s h2{
+    font-family: 'Circular STD', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+.plan h3 {
+    font-family: 'Circular STD', sans-serif;
+    font-size: 34px;
+    margin-bottom: 10px;
+    font-weight: 700px;
+    color: #006ac1;
+    padding-bottom: 20px;
+}
+.plan2 h3 {
+    font-family: 'Circular STD', sans-serif;
+    font-size: 34px;
+    margin-bottom: 50px;
+    font-weight: 700px;
+    color: #A6026A;
+    
+}
+.plan3 h3 {
+    font-family: 'Circular STD', sans-serif;
+    font-size: 34px;
+    margin-bottom: 10px;
+    font-weight: 700px;
+    color: #663396;
+    padding-bottom: 20px;
+}
+
+
+.s .price {
+    font-family: 'Circular STD', sans-serif;
+    font-size: 28px;
+    font-weight: 500    ;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+
+.s .price2  {
+    font-family: 'Circular STD', sans-serif;
+    font-size: 25px;
+    color: #000;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.s .discount2 {
+    font-family: 'Circular STD', sans-serif, Helvetica;
+    font-size: 25px;
+    color: #888;
+    text-decoration: line-through;
+}
+
+.s .price3 {
+    font-family: 'Circular STD', sans-serif;
+    font-size: 25px;
+    font-weight: 500    ;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.s .discount3 {
+    font-family: 'Circular STD', sans-serif, Helvetica;
+    font-size: 25px;
+    color: #888;
+    text-decoration:line-through;
+}
+
+
+.plan ul {
+    list-style: none;
+    padding: 0;
+}
+
+.plan li {
+    font-size: 20px;
+    font-family: 'Circular STD', sans-serif, Helvetica;
+    margin-bottom: 10px;
+}
+.plan2 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.plan2 li {
+    font-size: 20px;
+    font-family: 'Circular STD', sans-serif, Helvetica;
+    margin-bottom: 10px;
+}
+.plan3 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.plan3 li {
+    font-size: 20px;
+    font-family: 'Circular STD', sans-serif, Helvetica;
+    margin-bottom: 10px;
+}
+
+.get-started-button {
+    font-family: 'Circular STD', sans-serif, Helvetica;
+    margin-top: 75px ;
+    font-size: large;
+    padding-left: 100px;
+    padding-right:100px ;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 9999px;
+    background-color: #006ac1;
+    border: 1px solid #333;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.get-started-button:hover{
+    transform: scale(1.04);
+}
+
+.get-started-button-2{
+    font-family: 'Circular STD', sans-serif, Helvetica;
+    margin-top: 15px;
+    padding: 16px;
+    font-size: large;
+    color: #ffffff;
+    font-weight: 600;
+    background-color: #A6026A;
+    border-radius: 9999px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border: 1px solid #333;
+    
+}
+.get-started-button-2:hover{
+    transform: scale(1.04);
+}
+.get-started-button-3{
+    font-family: 'Circular STD', sans-serif, Helvetica;
+    margin-top: 19px;
+    padding: 16px;
+    font-size: large;
+    color: #ffffff;
+    font-weight: 600;
+    background-color: #663396;
+    border-radius: 9999px;
+    border:1px solid #333;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.get-started-button-3:hover{
+    transform: scale(1.04);
+}
+
+
+@media (max-width: 768px) {
+    .header-container {
+        font-family: 'Circular STD', sans-serif, Helvetica;
+        align-items: flex-start;
+        padding: 10px;
+    }
+    .logo {
+        width: 106px;
+        padding-left: 19px;
+        padding-top: 8px;
+    }
+
+    .header-container2 {
+        font-family: 'Circular STD', sans-serif, Helvetica;
+        margin-top: 5px;
+        margin-bottom:10px;
+    }
+    a.login-button{
+        font-family: 'Circular STD', sans-serif, Helvetica;
+        margin-right: 1px;
+        margin-left: -75px;
+        font-size: 16px;
+        font-weight: 600px;
+        text-align: center;
+        width: 50px;
+    }
+    img{
+        width:13px;
+    }
+    .plans-section{
+        font-family: 'Circular STD', sans-serif, Helvetica;
+        margin-top:20% ;
+    }
+    .plans-section h2 {
+        font-family: 'Circular STD', sans-serif, Helvetica;
+    }
+    .plans-section p{
+        font-family: 'Circular STD', sans-serif, Helvetica;
+    }
+    .headline h1 {
+        font-size: 31px;
+        font-family: 'Circular STD', sans-serif, Helvetica;
+        margin-left:18px;
+        padding: 0;
+        margin-right: 10px;
+    }
+    .headline-text{
+        font-family: 'Circular STD', sans-serif, Helvetica;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        margin: 0;
+        padding-top: 20%;
+        padding-top: 20%;
+    }
+    .banner-image{
+        display: none;
+    }
+    .sub-headline p {
+        font-family: 'Circular STD', sans-serif, Helvetica;
+        font-size: 16px;
+        margin:0;
+        margin-top:13px;
+        padding: 0;
+        margin: 18px;
+        padding-left:1px;
+    }
+    .get-started{
+        font-family: 'Circular STD', sans-serif, Helvetica;
+        display: flex;
+        justify-content: center;
+        margin-top:10px ;
+        margin-left: 0;
+        padding-left: 150px;
+        padding-right: 150px;
+        width: 100%;
+    }
+    .get-button{
+        display: flex;
+        justify-content: center;
+        width:100%;
+    }
+    .plans-container {
+        flex-direction: column;
+        align-items: center
+    }
+    .plan {
+        font-family: 'Circular STD', sans-serif, Helvetica;
+        width: auto;
+    }
+    .plan2{
+        font-family: 'Circular STD', sans-serif, Helvetica;
+        width: auto;
+    }
+    .plan3{
+        font-family: 'Circular STD', sans-serif, Helvetica;
+        width: auto;
+    }
+}
