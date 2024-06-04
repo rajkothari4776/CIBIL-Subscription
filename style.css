@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Circular STD';
-    src: url('circular-std/CircularStd-Book.otf') format('otf');
+    src: url('/CircularStd-Book.otf') format('otf');
     font-weight: normal;
     font-style: normal;
 }
