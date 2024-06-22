@@ -4,7 +4,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 html {
     scroll-behavior: smooth;
 }
@@ -23,7 +22,6 @@ body {
     padding: 10px;
     padding-left: 10px;
 }
-
 .logo {
     width: 110px;
     padding-left: 72px;
@@ -31,7 +29,6 @@ body {
 .header-container2{
     display: flex;
     justify-content: space-between;
-    
 }
 .login-button{
     font-family: 'Circular STD', sans-serif, Helvetica;
@@ -54,7 +51,10 @@ body {
     background: #f5f5f5;
 }
 .banner-image{
-    width: 1000px; 
+    max-width: 100%;
+    width: 51%;
+    max-height: 100%;
+    height: 70%; 
     filter: brightness(0.96);
 }
 img.banner-image-mobile{
@@ -125,7 +125,6 @@ img.banner-image-mobile{
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 20px;
-    
     width:350px;
     text-align: center;
     position: relative;
@@ -169,7 +168,6 @@ img.banner-image-mobile{
     font-size: 16px;
     margin-left: 25px;
 }
-
 .plan-display img.checkmark {
     margin-right: 10px;
     width: 50px; 
@@ -185,8 +183,6 @@ img.banner-image-mobile{
     width: 50px; 
     height: 50px; 
 }
-
-
 .s h2{
     font-family: 'Circular STD', sans-serif;
     font-size: 28px;
@@ -216,8 +212,6 @@ img.banner-image-mobile{
     color: #663396;
     padding-bottom: 20px;
 }
-
-
 .s .price {
     font-family: 'Circular STD', sans-serif;
     font-size: 28px;
@@ -225,8 +219,6 @@ img.banner-image-mobile{
     color: #000;
     margin-bottom: 10px;
 }
-
-
 .s .price2  {
     font-family: 'Circular STD', sans-serif;
     font-size: 25px;
@@ -234,7 +226,6 @@ img.banner-image-mobile{
     margin-bottom: 10px;
     font-weight: 500;
 }
-
 .s .discount2 {
     font-family: 'Circular STD', sans-serif, Helvetica;
     font-size: 25px;
@@ -256,8 +247,6 @@ img.banner-image-mobile{
     color: #888;
     text-decoration:line-through;
 }
-
-
 .plan ul {
     list-style: none;
     padding: 0;
@@ -272,7 +261,6 @@ img.banner-image-mobile{
     list-style: none;
     padding: 0;
 }
-
 .plan2 li {
     font-size: 20px;
     font-family: 'Circular STD', sans-serif, Helvetica;
@@ -282,7 +270,6 @@ img.banner-image-mobile{
     list-style: none;
     padding: 0;
 }
-
 .plan3 li {
     font-size: 20px;
     font-family: 'Circular STD', sans-serif, Helvetica;
@@ -303,11 +290,9 @@ img.banner-image-mobile{
     color: #ffffff;
     font-weight: 600;
 }
-
 .get-started-button:hover{
     transform: scale(1.04);
 }
-
 .get-started-button-2{
     font-family: 'Circular STD', sans-serif, Helvetica;
     margin-top: 15px;
@@ -319,8 +304,7 @@ img.banner-image-mobile{
     border-radius: 9999px;
     padding-left: 80px;
     padding-right: 80px;
-    border: 1px solid #333;
-    
+    border: 1px solid #333;  
 }
 .get-started-button-2:hover{
     transform: scale(1.04);
@@ -342,8 +326,7 @@ img.banner-image-mobile{
     transform: scale(1.04);
 }
 
-
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     .header-container {
         font-family: 'Circular STD', sans-serif, Helvetica;
         align-items: flex-start;
